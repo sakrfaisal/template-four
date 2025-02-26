@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="List of latest uploaded files of the academy"
+    />
+    <title>Courses | List of latest uploaded files</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Work+Sans:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Libraries -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Framework file -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- Mian Css File -->
+    <link rel="stylesheet" href="css/elzero.css" />
+  </head>
+  <body>
+    <div class="page flex">
+      <aside class="sidebar p-20 p-rel flex flex-col items-center">
+        <h3 class="p-rel">Elzero</h3>
+        <ul class="links w-full flex flex-col gap-5">
+          <li>
+            <a href="dashboard.html" title="Dashboard">
+              <i class="fa-regular fa-chart-bar"></i>
+              <span class="section-name hide-mobile">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html" title="Settings">
+              <i class="fa-solid fa-gear"></i>
+              <span class="section-name hide-mobile">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" title="Profile">
+              <i class="fa-solid fa-user"></i>
+              <span class="section-name hide-mobile">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" title="Projects">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="section-name hide-mobile">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html" title="Courses">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span class="section-name hide-mobile">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html" title="Friends">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="section-name hide-mobile">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html" title="Files" class="active">
+              <i class="fa-solid fa-file"></i>
+              <span class="section-name hide-mobile">Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" title="Plans">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="section-name hide-mobile">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content w-full">
+        <header class="bg-white w-full p-15 flex justify-between items-center">
+          <div class="search-box p-rel">
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons flex items-center gap-15">
+            <i class="fa-regular fa-bell fa-lg p-rel"></i>
+            <img src="images/avatar.webp" alt="" width="30px" height="30px" />
+          </div>
+        </header>
+        <h1 class="p-rel">Courses</h1>
+        <div class="files-page w-full p-20 flex gap-20">
+          <div class="files-stats p-20 rad-10 bg-white">
+            <h2 class="mb-20">Files Statistics</h2>
+            <div class="border mb-10 p-10 flex items-center gap-10 rad-6">
+              <i
+                class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"
+              ></i>
+              <div class="headings fs-13 w-full">
+                <span class="mb-10 block">PDF Files</span>
+                <span class="c-grey">130</span>
+              </div>
+              <span class="c-grey fs-13">6.5GB</span>
+            </div>
+            <div class="border mb-10 p-10 flex items-center gap-10 rad-6">
+              <i
+                class="fa-regular fa-images fa-lg green center-flex c-green icon"
+              ></i>
+              <div class="headings fs-13 w-full">
+                <span class="mb-10 block">PDF Files</span>
+                <span class="c-grey">130</span>
+              </div>
+              <span class="c-grey fs-13">6.5GB</span>
+            </div>
+            <div class="border mb-10 p-10 flex items-center gap-10 rad-6">
+              <i
+                class="fa-regular fa-file-word fa-lg red center-flex c-red icon"
+              ></i>
+              <div class="headings fs-13 w-full">
+                <span class="mb-10 block">PDF Files</span>
+                <span class="c-grey">130</span>
+              </div>
+              <span class="c-grey fs-13">6.5GB</span>
+            </div>
+            <div class="border mb-10 p-10 flex items-center gap-10 rad-6">
+              <i
+                class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"
+              ></i>
+              <div class="headings fs-13 w-full">
+                <span class="mb-10 block">PDF Files</span>
+                <span class="c-grey">130</span>
+              </div>
+              <span class="c-grey fs-13">6.5GB</span>
+            </div>
+            <div class="upload-field">
+              <input type="file" id="upload" />
+              <label for="upload" class="rad-6 bg-blue c-white block p-10">
+                <i class="fa-solid fa-angles-up mr-10"></i>
+                <span>Upload</span>
+              </label>
+            </div>
+          </div>
+          <div class="files grid gap-10">
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-01.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.pdf</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>03/02/2025</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-02.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.avi</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>01/02/2025</span>
+                <span>3.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-03.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.eps</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>29/01/2025</span>
+                <span>4MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-04.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.psd</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>28/01/2025</span>
+                <span>8.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-05.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.dll</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>26/01/2025</span>
+                <span>12MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-06.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.webp</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>20/01/2025</span>
+                <span>10.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-01.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.pdf</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>03/02/2025</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-02.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.avi</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>01/02/2025</span>
+                <span>3.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-03.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.eps</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>29/01/2025</span>
+                <span>4MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-04.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.psd</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>28/01/2025</span>
+                <span>8.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-05.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.dll</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>26/01/2025</span>
+                <span>12MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-06.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.webp</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>20/01/2025</span>
+                <span>10.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-01.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.pdf</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>03/02/2025</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-02.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.avi</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>01/02/2025</span>
+                <span>3.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-03.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.eps</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>29/01/2025</span>
+                <span>4MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-04.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.psd</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>28/01/2025</span>
+                <span>8.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-05.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.dll</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>26/01/2025</span>
+                <span>12MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-06.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.webp</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>20/01/2025</span>
+                <span>10.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-01.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.pdf</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>03/02/2025</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-02.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.avi</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>01/02/2025</span>
+                <span>3.5MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-03.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.eps</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>29/01/2025</span>
+                <span>4MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-04.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.psd</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>28/01/2025</span>
+                <span>8.2MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-05.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.dll</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>26/01/2025</span>
+                <span>12MB</span>
+              </div>
+            </div>
+            <div class="file p-10 txt-c items-center rad-10 bg-white p-rel">
+              <a href="#" class="p-abs"
+                ><i class="fa-solid fa-download c-grey"></i
+              ></a>
+              <img
+                src="images/file-06.svg"
+                alt=""
+                width="64px"
+                height="64px"
+                class="mt-20 mb-20"
+              />
+              <h4 class="fw-normal mb-10">my-file.webp</h4>
+              <span class="uploader block mb-10 txt-l c-grey fs-13"
+                >Elzero</span
+              >
+              <div
+                class="info pt-10 border-top flex justify-between fs-13 c-grey"
+              >
+                <span>20/01/2025</span>
+                <span>10.2MB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
